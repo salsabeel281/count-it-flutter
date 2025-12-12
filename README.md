@@ -37,7 +37,7 @@ text
 ### Installation
 1. Clone the repository
    ```bash
-   git clone https://github.com/salsabeel281/counter_app_web.git
+   https://github.com/salsabeel281/count-it-flutter.git
    cd counter_app_web
 Install dependencies
 

@@ -1,21 +1,71 @@
-<<<<<<< HEAD
-# counter_app
+# Count It - Counter Tracking App 📱
 
-A new Flutter project.
+A simple and beautiful Flutter app to track anything you want to count. Perfect for workouts, habits, expenses, or daily tasks.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- **➕ Add Unlimited Counters**: Create custom counters with names and colors
+- **🎨 Color Customization**: Choose from 6 beautiful colors
+- **💾 Local Storage**: Data saved automatically on your device
+- **🔄 Easy Operations**: Increment, decrement, and reset with one tap
+- **📱 Clean UI**: Modern design with smooth animations
 
-A few resources to get you started if this is your first Flutter project:
+## 🏗️ Project Structure
+lib/
+├── main.dart # App entry point
+└── src/
+├── models/
+│ └── counter_model.dart # Data model
+├── controllers/
+│ └── counter_controller.dart # Business logic
+├── services/
+│ └── shared_preferences_service.dart # Local storage
+├── widgets/
+│ ├── counter_card.dart # Counter display widget
+│ └── color_selector.dart # Color picker widget
+└── screens/
+├── splash_screen.dart # Welcome screen
+└── home_screen.dart # Main screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+text
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# count-it-flutter
-A beautiful counter tracking app built with Flutter
->>>>>>> 54d5f3be536e62e0d0bf617cebd9106532dbba97
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (latest stable version)
+
+### Installation
+1. Clone the repository
+   ```bash
+   git clone https://github.com/salsabeel281/counter_app_web.git
+   cd counter_app_web
+Install dependencies
+
+bash
+flutter pub get
+Run the app
+
+bash
+flutter run
+🛠️ Tech Stack
+Framework: Flutter
+
+Language: Dart
+
+State Management: ChangeNotifier
+
+Local Storage: SharedPreferences
+
+Architecture: Clean separation (Models, Controllers, Services, UI)
+
+📱 How to Use
+Add Counter: Tap the + button, enter name, choose color
+
+Increment/Decrement: Tap + or - buttons on each counter
+
+Reset/Delete: Long press any counter for options
+
+Data Persistence: All data saves automatically
+
+👤 Author
+Salsabeel - Flutter Developer
